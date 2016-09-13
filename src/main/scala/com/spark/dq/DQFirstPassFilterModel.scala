@@ -16,6 +16,7 @@ class DQFirstPassFilterModel(var path:String) extends Serializable {
     val filterDf = sqlContext.createDataFrame(columnValueCounts,df.schema).toDF();
     filterDf.write.save(path)
     filterDf
+
   }
 
 

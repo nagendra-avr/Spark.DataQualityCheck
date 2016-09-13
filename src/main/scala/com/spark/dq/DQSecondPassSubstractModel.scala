@@ -5,7 +5,7 @@ import org.apache.spark.sql.{SQLContext, DataFrame}
 /**
  * Created by nagi on 9/13/16.
  */
-class DQFirstPassSubstractModel {
+class DQSecondPassSubstractModel {
 
   def += (rawdf : DataFrame, records : DataFrame,sqlContext : SQLContext) : DataFrame = {
 
